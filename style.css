@@ -138,7 +138,7 @@ body {
 
 .upgrader {
     width: 90%;
-    height: 95%;
+    height: 90%;
     background-color: white;
     color: black;
     padding: 10px;
@@ -146,7 +146,7 @@ body {
 
 .clearance {
     width: 95%;
-    height: 95%;
+    height: 85%;
     background-color: white;
     color: black;
     padding: 10px;
@@ -154,6 +154,7 @@ body {
 .clearance img {
     padding-left: 10px;
     padding-right: 10px;
+    width: 85%;
 }
 
 .images {
@@ -173,6 +174,7 @@ body {
 .rightBoxerMain {
     display: flex;
     flex-direction: column;
+    margin-left: 20px;
 }
 
 .rightBoxer {
@@ -185,8 +187,12 @@ body {
 }
 
 .rightMainImage {
-    width: 50vw;
+    width: 40vw;
 }
+.rightMainImage img {
+    width: 80%;
+}
+
 .button {
     text-align: center;
     padding: 10px;
